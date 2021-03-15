@@ -1,7 +1,7 @@
 {
   "name": "unit2-retake",
   "version": "1.0.0",
-  "description": "",
+  "description": "This code may be used as starter code for the project 2 assessment retake. Remember to run `npm install` after cloning!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,10 +10,23 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ejs": "^3.1.2",
+    "axios": "^0.21.1",
+    "ejs": "^3.1.6",
     "express": "^4.17.1",
-    "pg": "^8.0.3",
-    "sequelize": "^5.21.7",
+    "express-ejs-layouts": "^2.5.0",
+    "method-override": "^3.0.0",
+    "morgan": "^1.10.0",
+    "pg": "^8.5.1",
+    "rowdy-logger": "^1.0.2",
+    "sequelize": "^5.22.4",
     "sequelize-cli": "^5.5.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcheney21/p2-retake-starter-code.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bcheney21/p2-retake-starter-code/issues"
+  },
+  "homepage": "https://github.com/bcheney21/p2-retake-starter-code#readme"
 }

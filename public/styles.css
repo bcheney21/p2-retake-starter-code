@@ -1,0 +1,16 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(153, 51, 85);
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav a:hover {
+    color: coral;
+}
