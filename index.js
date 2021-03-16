@@ -33,10 +33,9 @@ app.post('/favorites', (req, res) => {
             extinct:req.body.extinct
             }
         // console.log(created)
-    }).then(function(animal) {
-        console.log(animal)
-        res.redirect('/favorites')
-    }).catch(function(err) {
+    })
+    res.redirect('/favorites')
+    .catch(function(err) {
         console.log(err)
     })
 })

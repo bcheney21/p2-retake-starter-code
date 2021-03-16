@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/public/styles.css">
+<link rel="stylesheet" href="/styles.css">
 <%- include('./partials/navbar') %>
 
 <h1>Your Favorited Animals:</h1>
@@ -7,12 +7,12 @@
 <% } else { %>
     <% animals.forEach(animal => { %>
         <% if(animal.extinct === true) { %>
-            <h1 style="color:rgba(255, 0, 0, 0.801)">Name: <%= animal.species_name %></h1>
+            <h2 style="color:rgba(255, 0, 0, 0.801)">Name: <%= animal.species_name %></h1>
         <% } else {%>
-            <h1>Name: <%= animal.species_name %></h1>
+            <h2>Name: <%= animal.species_name %></h1>
         <% } %> 
-    <h2>Scientific Name: <i><%= animal.scientific_name %></i></h2>
+    <p>Scientific Name: <i><%= animal.scientific_name %></i></p>
     <img src='<%= animal.image_url%>' max-width="300px" max-height="300px">
-    <h2>Description: <%= animal.description%></h2>
+    <p>Description: <%= animal.description%></p>
     <% }) %> 
 <% } %> 

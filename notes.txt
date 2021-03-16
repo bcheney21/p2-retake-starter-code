@@ -1,3 +1,4 @@
 - add to favorites as a try/catch
 - linking to stylesheet
 - way to check if animal is extinct not in the html body?
+placekitten.com
