@@ -1,0 +1,32 @@
+<link rel="stylesheet" href="/public/styles.css">
+<%- include('./partials/navbar') %>
+<h1>Add a New Animal to Your Favorites</h1>
+<form method="POST" action="/favorites">
+    <label>
+        Species Name:
+    </label>
+    <input type="text" name="species_name">
+    
+    <label>
+        Scientific Name:
+    </label>
+    <input type="text" name="scientific_name">
+    
+    <label>
+        Image Url:
+    </label>
+    <input type="text" name="image_url">
+    
+    <label>
+        Description of Animal:
+    </label>
+    <input type="text" name="description">
+    
+    <label>
+        Extinction Status:
+    </label>
+    <input type="text" 
+    name="extinct">
+    
+    <input type="submit" value="Add Animal to Favorites">
+</form>

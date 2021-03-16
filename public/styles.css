@@ -1,7 +1,7 @@
 nav {
+    background-color: grey;
     display: flex;
     justify-content: space-between;
-    background-color: rgb(153, 51, 85);
     padding: 10px;
 }
 
@@ -13,4 +13,8 @@ nav a {
 
 nav a:hover {
     color: coral;
+}
+
+h1 {
+    color: red;
 }
